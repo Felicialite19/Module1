@@ -1,0 +1,8 @@
+my_string=input('Введите любой текст: ')
+print('Количество символов введенного вами текста равна: ',len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.replace(' ',''))
+my_string=my_string.strip()
+print(my_string[0])
+print(my_string[-1])
