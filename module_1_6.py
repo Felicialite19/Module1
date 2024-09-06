@@ -3,9 +3,8 @@ print('Dict: ',my_dict)
 print('Existing value: ',my_dict['Ann'])
 my_dict['Lisa']=22
 my_dict.update({'Sam':52, 'Kate':28})
-Del_value=my_dict['Don']
-del my_dict['Don']
-print('Not existing value: ',my_dict.get('Don'))
+Del_value=my_dict.pop('Don')
+print('Not existing value: ',my_dict.get(Del_value))
 print('Deleted value: ',Del_value)
 print('Modified dictionary: ',my_dict)
 
